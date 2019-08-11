@@ -1,20 +1,27 @@
 {
   "name": "react-debounce-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react hook for using a debouncing an input with state variables In react.",
   "main": "dist/index.js",
   "repository": "git@github.com:logzio/use-debounce.git",
   "author": "Amir Tugendhaft <Amir.Tugi@gmail.com>",
-  "keywords": ["react", "hooks", "react-hooks", "debounce", "useDebounce","debounce-hook", "react-debounce"],
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "debounce",
+    "useDebounce",
+    "debounce-hook",
+    "react-debounce"
+  ],
   "contributors": [
     "Eden Turgeman <Edmx0.et@gmail.com>"
   ],
   "license": "Apache-2.0",
   "private": false,
   "dependencies": {
+    "@types/react": "^16.9.1",
     "react": "^16.9.0"
   },
-  "devDependencies": {
-    "@types/react": "^16.9.1"
-  }
+  "devDependencies": {}
 }
