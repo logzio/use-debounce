@@ -1,6 +1,6 @@
 {
   "name": "react-debounce-hook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react hook for using a debouncing an input with state variables In react.",
   "main": "dist/index.js",
   "repository": "git@github.com:logzio/use-debounce.git",
