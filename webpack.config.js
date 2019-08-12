@@ -11,8 +11,8 @@ module.exports = ({ mode }) => ({
 
     extensions: [".ts", ".tsx", ".js"]
   },
-  externals : {
-    react: 'react'
+  externals: {
+    "react": "React"
   },
   module: {
     rules: [
