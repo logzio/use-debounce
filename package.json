@@ -1,6 +1,6 @@
 {
   "name": "react-debounce-hook",
-  "version": "1.1.16",
+  "version": "1.1.17",
   "description": "A react hook for using a debouncing an input with state variables In react.",
   "scripts": {
     "build:prod": "yarn run webpack --env.mode production",
