@@ -1,22 +1,29 @@
+const webpack = require('webpack');
 const path = require('path');
 
 module.exports = ({ mode }) => ({
-  entry: './src/index.ts',
+  entry: path.resolve('./src/index.ts'),
   mode,
   output: {
-    filename: './main.js',
-    path: path.resolve(__dirname, 'dist')
+    filename: './index.js',
+    path: path.resolve(__dirname, 'dist'),
+    libraryTarget: 'commonjs'
   },
   resolve: {
 
     extensions: [".ts", ".tsx", ".js"]
   },
   externals: {
-    "react": "React"
+    react: {
+      commonjs: "react",
+      commonjs2: "react",
+      amd: "React",
+      root: "React"
+    },
   },
   module: {
     rules: [
-      { test: /\.ts(x?)$/, loader: "ts-loader" }
+      {test: /\.ts(x?)$/, loader: "ts-loader"}
     ]
   }
 });
