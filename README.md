@@ -6,7 +6,7 @@
 
 
 # use-debounce
-A react hook for using and debouncing an input with state variables in react.
+A react hook for debouncing an input with state variables in react.
 
 ## Parameters
 
