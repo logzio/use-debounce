@@ -8,7 +8,11 @@
 # use-debounce
 A react hook for debouncing an input with state variables in react. 
 
-![React debounce hook](https://user-images.githubusercontent.com/8065975/63023470-dbeef100-bead-11e9-8434-5a5ab1796e92.gif)
+<p align="center">
+  <a href="http://logz.io">
+    <img height="150px" src="https://user-images.githubusercontent.com/8065975/63023470-dbeef100-bead-11e9-8434-5a5ab1796e92.gif">
+  </a>
+</p>
 
 ## Usage
 [Simple demo](https://codesandbox.io/s/infallible-pond-u9w4z)  
